@@ -1,85 +1,70 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Project Skywatch</title>
-  <style>
-    body {
-      margin: 0;
-      background: #0b1628;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    header {
-      padding: 25px;
-      background: #142840;
-      font-weight: bold;
-      letter-spacing: 3px;
-    }
-    main {
-      padding: 65px 20px;
-      max-width: 850px;
-      margin: auto;
-    }
-    h1 { font-size: 38px; }
-    p { color: #c4d3e4; line-height: 1.7; }
-    .button {
-      display: inline-block;
-      padding: 14px 25px;
-      margin: 12px;
-      background: #3479cc;
-      color: white;
-      border-radius: 6px;
-      text-decoration: none;
-    }
-    section { padding: 30px 0; }
-    footer { padding: 25px; color: #9fb0c7; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Project Skywatch is a free, volunteer-powered civilian sky observation and UAP research initiative.">
+<title>Project Skywatch | Independent Sky Research</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#081424;color:#f2f7ff;font-family:Arial,sans-serif;line-height:1.65}
+header{padding:22px 6%;border-bottom:1px solid #284361;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-weight:800;letter-spacing:2px;color:#a7d6ff}
+nav a{color:#d8e9ff;text-decoration:none;margin-left:16px}
+main{max-width:1050px;margin:auto;padding:20px}
+.hero{text-align:center;padding:85px 16px 70px;background:radial-gradient(ellipse at top,#163b61,#081424 70%)}
+h1{font-size:clamp(36px,7vw,64px);line-height:1.12;margin:0 0 16px}
+h2{color:#a7d6ff;font-size:28px}
+.lead{font-size:19px;max-width:730px;margin:20px auto;color:#d2e2f3}
+.button{display:inline-block;background:#3888e8;color:white;text-decoration:none;padding:15px 26px;border-radius:9px;font-weight:bold;margin:10px}
+.button:hover{background:#5da5ff}
+.secondary{background:transparent;border:1px solid #82baff}
+section{padding:35px 15px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:#11253d;border:1px solid #284361;border-radius:12px;padding:22px}
+.card h3{color:#a7d6ff;margin-top:0}
+.note{color:#b9cde1}
+footer{text-align:center;border-top:1px solid #284361;padding:30px 16px;color:#b9cde1}
+</style>
 </head>
 <body>
-  <header>PROJECT SKYWATCH</header>
-
-  <main>
-    <h1>The Sky Belongs to Everyone.</h1>
-    <h2>So Should the Evidence.</h2>
-
-    <p>
-      An independent, US-based global civilian
-      initiative dedicated to investigating
-      unidentified anomalous phenomena through
-      scientific observation, open evidence,
-      and international collaboration.
-    </p>
-
-    <a class="button" href="#join">Join Skywatch</a>
-    <a class="button" href="#research">Explore Research</a>
-
-    <section id="research">
-      <h2>Global UAP Research</h2>
-      <p>
-        Exploring government archives, historical
-        observations, unexplained cases, and
-        scientific investigations worldwide.
-      </p>
-    </section>
-
-    <section id="join">
-      <h2>Help Build the Network</h2>
-      <p>
-        We are seeking volunteers, researchers,
-        engineers, astronomers, and curious minds.
-        Our observation network is in development.
-      </p>
-      <p>Volunteer registration coming soon.</p>
-    </section>
-  </main>
-
-  <footer>
-    Project Skywatch | Based in the USA |
-    Open to the World
-  </footer>
+<header>
+<div class="brand">PROJECT SKYWATCH</div>
+<nav><a href="#mission">Mission</a><a href="#network">Network</a><a href="#research">Research</a></nav>
+</header>
+<main>
+<div class="hero">
+<h1>The Sky Belongs to Everyone.</h1>
+<h2>So Should the Evidence.</h2>
+<p class="lead">An independent, US-based international civilian initiative dedicated to scientific sky observation, UAP research, open evidence, and public collaboration.</p>
+<a class="button" href="https://forms.gle/4GiN6epQdG2VFEnL8" target="_blank" rel="noopener noreferrer">Join Project Skywatch — Free</a>
+<a class="button secondary" href="#mission">Explore Our Mission</a>
+</div>
+<section id="mission">
+<h2>Our Mission</h2>
+<p>Project Skywatch aims to investigate unusual aerial observations through independent measurements, transparent methods, and scientific review. We follow evidence wherever it leads, including conventional explanations.</p>
+<p>Our long-term vision is to build an accessible, volunteer-powered sky observation network that contributes to research and public awareness.</p>
+</section>
+<section id="network">
+<h2>A Connected Observation Network</h2>
+<div class="cards">
+<div class="card"><h3>Observe</h3><p>Volunteer stations may one day monitor the sky with cameras and sensors, documenting events with accurate timestamps and equipment information.</p></div>
+<div class="card"><h3>Compare</h3><p>Multiple stations could help correlate observations, estimate trajectories, and distinguish apparent motion from measured movement.</p></div>
+<div class="card"><h3>Investigate</h3><p>Interesting detections could be flagged for human review and assisted analysis, with original evidence preserved securely.</p></div>
+</div>
+<p class="note">The automated observation network is a future goal, not an active monitoring service.</p>
+</section>
+<section id="research">
+<h2>Research Without Preset Conclusions</h2>
+<p>We aim to examine historical cases, international public records, astronomy, atmospheric phenomena, and unexplained observations. Our goal is to document both explained and unresolved cases with equal transparency.</p>
+</section>
+<section id="join">
+<h2>Help Build Project Skywatch</h2>
+<p>Beginners, astronomers, engineers, programmers, researchers, and curious minds are welcome. No equipment or experience is required. Joining is free, and participation is voluntary.</p>
+<a class="button" href="https://forms.gle/4GiN6epQdG2VFEnL8" target="_blank" rel="noopener noreferrer">Become a Volunteer</a>
+<p class="note">We are currently recruiting interested volunteers. Observation stations and automated analysis tools are planned for future development.</p>
+</section>
+</main>
+<footer>PROJECT SKYWATCH<br>The sky belongs to everyone. So should the evidence.</footer>
 </body>
 </html>
